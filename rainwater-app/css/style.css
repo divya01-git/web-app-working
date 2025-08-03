@@ -1,0 +1,74 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #b3e5fc, #e1f5fe);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: white;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #0077b6;
+  margin-bottom: 1rem;
+}
+
+label, select, button {
+  display: block;
+  margin: 0.5rem auto;
+  width: 80%;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px;
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #005f8a;
+}
+
+.weather-section {
+  margin-top: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #0077b6;
+  color: white;
+}
+
+.suggestions {
+  margin-top: 2rem;
+  background-color: #e0f7fa;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+canvas {
+  max-width: 100%;
+  margin-top: 20px;
+}
